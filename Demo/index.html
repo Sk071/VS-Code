@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script>
+        function add()
+        {
+            var a=document.getElementById("fn").value;
+            var b=document.getElementById("sn").value;
+            var c =parseInt(a)+parseInt(b);
+            //document.write("Addition of two number is "+c);
+            document.getElementById("r").innerHTML=c;
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to Web Devlopment Exercise</h1>
+    <h2>Form example will be used to check understanding along with js and php</h2>
+    <form>
+        First Number <input type="number" id="fn"><br> <br>
+        Second Number <input type="number" id="sn"><br> <br>
+        <input type="button" value="addition" onclick="add()"> <br><br>
+        <h4 id="r"></h4>
+        
+    </form>
+   <h2>Testing php in the following form</h2>
+    <form action="display.php" action="GET">
+    <p> First Name: <input type="text" name="f"></p>
+    <p> Second Name: <input type="text" name="s"></p>
+    <input type="submit">
+
+   </form>
+</body>
+</html>

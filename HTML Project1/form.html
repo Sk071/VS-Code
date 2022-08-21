@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body >
+    <h1>Welcome to Form Exmaple page</h1>
+    <br><hr>
+    <h4>Fill all the inputs below</h4>
+    <h4>Mandetory fields are followed by *</h4>
+    <br>
+    <form action="">
+        First Name:* <input type="text" name="fname" required> 
+        <br>
+        <br>
+        Last Name:*  <input type="text" name="lname" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gender:*</legend>
+         <input type="radio" name="gender" id="m" required> Male 
+         <br>
+         <input type="radio" name="gender" id="f" required> Female
+        </fieldset>
+         <br>
+         <br>
+         Address: 
+         <br>
+         <br>
+         <textarea name="address" id="address" cols="100" rows="10"></textarea>
+         <p>
+            Email Address :* <input type="email" name="email" id="email" required>
+         </p>
+         <p>
+            Pincode:* <input type="number" name="pin" id="pin" required>
+         </p>
+         <h3>Payment Information</h3>
+         <br>
+         Card Type:* <select name="card" id="card" required>
+            <option value="">--Select Card Type--</option>
+            <option value="visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Rupay">Rupay</option>
+         </select>
+         <p>
+            Card Number:* <input type="number" name="cn"required>
+         </p>
+         <p>
+            Expiry Date:* <input type="date" name="ep" required>
+         </p>
+         <p>
+         <input type="submit" value="Submit"> &nbsp; &nbsp; <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html> 
