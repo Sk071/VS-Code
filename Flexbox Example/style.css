@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: red;
+}
+h1 {
+  padding: 50px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  width: 1200px;
+  height: 500px;
+  border: 2px solid rgb(25, 28, 237);
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box1 {
+  margin: 10px;
+  width: 270px;
+  height: 215px;
+  border: 2px solid rgb(13, 197, 243);
+}
+.box2 {
+  margin: 10px;
+  width: 270px;
+  height: 215px;
+  border: 2px solid rgb(13, 197, 243);
+}
+.box3 {
+  margin: 10px;
+  width: 270px;
+  height: 215px;
+  border: 2px solid rgb(13, 197, 243);
+}
