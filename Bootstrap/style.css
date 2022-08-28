@@ -10,21 +10,11 @@
 
 /* slider */
 .carousel-item{
-    height: 90vh;
-    min-height: 300px;
+    height: 90vh; 
+     min-height: 300px;
+       /* height: 660px; */
     background: no-repeat scroll center scroll;
     -webkit-backgroud-size: cover;
     background-size: cover; 
 }
  
-carousel-item::before{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.7;
-}
