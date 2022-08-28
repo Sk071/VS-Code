@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- style -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+     <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid m-0">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="40" fill="currentColor" class="bi bi-meta" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a54.944 54.944 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3c.319 0 .625.039.924.122.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714Zm1.516 2.224c-.252-.41-.494-.787-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87l-.937-1.565ZM4.846 4.756c.725.1 1.385.634 2.34 2.001A212.13 212.13 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264.091 0 .181.006.27.018Z"/>
+      </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Client
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">USA</a></li>
+              <li><a class="dropdown-item" href="#">UK</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">UAE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends -->
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/img1.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/img2.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/img3.jpg" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- custom elemets -->
+   <div class="container-fluid"> 
+        <div class="row">
+          <div class="col-12">
+            <h3 class="display-6 text-center mt-5 mb-2 m-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum mollitia numquam adipisci tenetur pariatur facere amet porro autem aperiam molestiae!</h3>   
+          </div>
+        </div>
+        <!-- Feature  -->
+        <div class="row justify-content-evenly pt-3 pb-3 m-3">
+
+          <div class="col-md-3 text-center m-4">
+           <h1> <i class="bi bi-file-code-fill text-primary"></i></h1>
+           <h5>Built for devlopers</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus nesciunt suscipit, eius dolorum dolor autem a quas inventore odio, aspernatur optio odit facere exercitationem cum perferendis est provident quasi?</p>
+          </div>
+
+          <div class="col-md-3 text-center m-4">
+          <h1><i class="bi bi-cup-hot-fill text-danger"></i></h1>
+           <h5>Built for devlopers</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum ipsum. Quis, dolorum veritatis! Laudantium voluptas aspernatur doloremque modi odio, praesentium placeat debitis impedit exercitationem ut perspiciatis dignissimos in rerum.</p>
+          </div>
+
+          <div class="col-md-3 text-center m-4">
+            <h1><i class="bi bi-alexa text-bg-warning"></i></h1>
+            <h5>Built for devlopers</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptatum ipsum. Quis, dolorum veritatis! Laudantium voluptas aspernatur doloremque modi odio, praesentium placeat debitis impedit exercitationem ut perspiciatis dignissimos in rerum.</p>
+          </div>    
+        
+        </div>
+
+          <!-- Line -->
+          <hr>
+
+          <!-- growth -->
+          <div class="row justify-content-evenly pt-3 pb-5">
+            <div class="col-md-5 mt-5">
+               <img src="images/growth.jpg"class="img-fluid"  alt="" width="100%" height="500%">
+            </div>
+
+            <div class="col-md-5 mt-5">
+              <h4 class="mt-3"> Website Development</h4>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <h4 class="mt-3"> App Development</h4>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <h4 class="mt-3"> SEO</h4>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <h4 class="mt-3"> Software Development</h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
+              </div>
+
+              <h4 class="mt-3">Marketing</h4>
+              <div class="progress">
+                <div class="progress-bar bg-primary" role="progressbar" aria-label="Danger example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="row">
+            <div class="col-md-5">
+                 
+            </div>
+            <div class="col-md-5">
+               
+            </div>
+          </div>
+
+
+        <!-- Container end -->
+   </div>
+  </body>
+</html>
